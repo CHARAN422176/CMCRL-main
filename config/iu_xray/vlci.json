@@ -68,7 +68,7 @@
         "task_name": "funtune_vlci_iuxray",
         "seed": -1,
         "cuda": 0,
-        "task": "inference",
+        "task": "pretrain",
         "load_model_path": "/kaggle/input/cmcrl/pytorch/default/1/iu_xray_model_best.pth",
         "resume": ""
     }
