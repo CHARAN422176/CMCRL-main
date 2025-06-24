@@ -3,7 +3,7 @@
         "dataset_name": "iu_xray",
         "image_dir": "../../MRG/data/iu_xray/images",
         "ann_path": "../../MRG/data/iu_xray/annotation.json",
-        "tokenizer": "mix",
+        "tokenizer": "ori",
         "max_seq_length": 60,
         "threshold": 3,
         "num_workers": 2,
