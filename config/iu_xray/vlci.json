@@ -42,8 +42,8 @@
     },
     "trainer": {
         "epochs": 10,
-        "result_dir": "results/iu_xray/vlci",
-        "record_dir": "results/iu_xray/vlci",
+        "result_dir": "results/pretrain",
+        "record_dir": "records/pretrain",
         "save_period": 1,
         "monitor_mode": "max",
         "monitor_metric": "BLEU_4",
@@ -65,11 +65,11 @@
         "gamma": 0.1
     },
     "other": {
-        "task_name": "funtune_vlci_iuxray",
+        "task_name": "pretrain",
         "seed": -1,
         "cuda": 0,
-        "task": "inference",
-        "load_model_path": "/kaggle/input/cmcrl/pytorch/default/1/iu_xray_model_best.pth",
+        "task": "pretrain",
+        "load_model_path": "",
         "resume": ""
     }
 }
