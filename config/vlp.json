@@ -68,7 +68,7 @@
         "seed": 42,
         "cuda": 3,
         "task": "finetune",
-        "load_model_path": "/kaggle/input/cmcrl/pytorch/default/1/iu_xray_model_best.pth",
+        "load_model_path": "/kaggle/input/cmcrl/pytorch/default/1/current_checkpoint.pth",
         "resume": ""
     }
 }
