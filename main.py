@@ -46,6 +46,12 @@ def main():
                        help='json file of config')
     json_path = parse.parse_args()
     args = load_json_args(json_path.c)
+
+
+    if "KAGGLE_KERNEL_RUN_TYPE" in os.environ:
+        print("Kaggle detected: forcing CUDA device to 0")
+    args["cuda"] = "0"
+
     torch.cuda.set_device(int(args["cuda"]))
     os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
     # -------------------------------
