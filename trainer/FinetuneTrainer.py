@@ -26,7 +26,10 @@ class Trainer(BaseTrainer):
         #     pretrained_dict = {k: v for k, v in pretrained_dict.items() if
         #                        k.split('.')[0] != 'decoder' and k.split('.')[0] != 'logit'}
         # print(pretrained_dict.keys())
-        self.model.load_state_dict(pretrained_dict, False)
+        filtered_dict = {k: v for k, v in pretrained_dict.items()
+                 if not (k.startswith('text_embed.embed.lut') or k.startswith('logit'))}
+        self.model.load_state_dict(filtered_dict, strict=False)
+        # self.model.load_state_dict(pretrained_dict, False)
 
 
     def _train_epoch(self, epoch):
