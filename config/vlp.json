@@ -68,7 +68,7 @@
         "seed": 42,
         "cuda": 3,
         "task": "finetune",
-        "load_model_path": "/kaggle/input/cmcrl/pytorch/default/1/current_checkpoint.pth",
+        "load_model_path": "/kaggle/input/cmcrl/pytorch/default/2/current_checkpoint.pth",
         "resume": ""
     }
 }
