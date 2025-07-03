@@ -64,11 +64,11 @@
         "gamma": 0.8
     },
     "other": {
-        "task_name": "pretrain",
+        "task_name": "finetune",
         "seed": 42,
         "cuda": 3,
-        "task": "pretrain",
-        "load_model_path": "",
+        "task": "finetune",
+        "load_model_path": "/kaggle/input/cmcrl/pytorch/default/1/iu_xray_model_best.pth",
         "resume": ""
     }
 }
