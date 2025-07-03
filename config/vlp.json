@@ -1,8 +1,8 @@
 {
     "data": {
         "dataset_name": "iu_xray",
-        "image_dir": "",
-        "ann_path": "",
+        "image_dir": "/kaggle/input/iu-xray/iu_xray/images",
+        "ann_path": "/kaggle/input/iu-xray/iu_xray/annotation.json",
         "tokenizer": "ori",
         "max_seq_length": 100,
         "threshold": 10,
