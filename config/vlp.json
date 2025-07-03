@@ -1,9 +1,9 @@
 {
     "data": {
-        "dataset_name": "mix",
+        "dataset_name": "iu_xray",
         "image_dir": "",
         "ann_path": "",
-        "tokenizer": "mix",
+        "tokenizer": "ori",
         "max_seq_length": 100,
         "threshold": 10,
         "num_workers": 2,
