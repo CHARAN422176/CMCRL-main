@@ -41,7 +41,7 @@
         "block_trigrams": 1
     },
     "trainer": {
-        "epochs": 100,
+        "epochs": 80,
         "result_dir": "results/finetune",
         "record_dir": "records/finetune",
         "save_period": 1,
