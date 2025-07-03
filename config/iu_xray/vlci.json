@@ -42,8 +42,8 @@
     },
     "trainer": {
         "epochs": 10,
-        "result_dir": "results/pretrain",
-        "record_dir": "records/pretrain",
+        "result_dir": "results/finetune",
+        "record_dir": "records/finetune",
         "save_period": 1,
         "monitor_mode": "max",
         "monitor_metric": "BLEU_4",
@@ -65,11 +65,11 @@
         "gamma": 0.1
     },
     "other": {
-        "task_name": "pretrain",
+        "task_name": "finetune",
         "seed": -1,
         "cuda": 0,
-        "task": "pretrain",
-        "load_model_path": "",
+        "task": "finetune",
+        "load_model_path": "/kaggle/input/cmcrl/pytorch/default/2/current_checkpoint.pth",
         "resume": ""
     }
 }
