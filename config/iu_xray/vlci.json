@@ -1,8 +1,8 @@
 {
     "data": {
         "dataset_name": "iu_xray",
-        "image_dir": "../../MRG/data/iu_xray/images",
-        "ann_path": "../../MRG/data/iu_xray/annotation.json",
+        "image_dir": "/kaggle/input/iu-xray/iu_xray/images",
+        "ann_path": "/kaggle/input/iu-xray/iu_xray/annotation.json",
         "tokenizer": "mix",
         "max_seq_length": 60,
         "threshold": 3,
@@ -69,7 +69,7 @@
         "seed": -1,
         "cuda": 0,
         "task": "inference",
-        "load_model_path": "results/iu_xray/vlci/model_best.pth",
+        "load_model_path": "/kaggle/input/cmcrl/pytorch/default/1/iu_xray_model_best.pth",
         "resume": ""
     }
 }
