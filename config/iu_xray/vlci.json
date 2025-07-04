@@ -70,6 +70,6 @@
         "cuda": 0,
         "task": "finetune",
         "load_model_path": "/kaggle/input/cmcrl/pytorch/default/3/model_best.pth",
-        "resume": "80"
+        "resume": "/kaggle/input/cmcrl/pytorch/default/3/model_best.pth"
     }
 }
